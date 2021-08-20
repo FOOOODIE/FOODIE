@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+header img {
+    padding: 50;
+    position: relative;
+    left: 80px;
+} 
+header img:nth-child(4) {
+    position: relative;
+    left: 500px;
+    width: 110px;
+    height: 90px;
+    
+}
+ 
+header img:nth-child(5){
+    position: relative;
+    left: 1000px;
+    width: 60px;
+    height: 60px;
+}
+ 
+header img:nth-child(6){
+    display: block;
+    
+    width: 1180px;
+    height: 500px;
+}
+
+body{
+    padding-left: 100px;
+    background-image: url("https://i.pinimg.com/originals/5b/be/e9/5bbee9b08f6d1eafb014269ac137ae1f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ main img{
+    display: block;
+    width: 500px;
+    height: 300px;
+    padding-left: 30px;
+}
+
+.column {
+    float: left;
+    width: 350px;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 40px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  main div p  {
+    padding-left: 30px;
+  }
+  main div button{
+    margin-left: 130px;
+  }
+main .row div{
+    /* border: gray; */
+    
+    outline: gray;
+    outline-width: 30px;
+}
