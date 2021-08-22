@@ -28,36 +28,66 @@ header img:nth-child(5){
 }
  
 header img:nth-child(6){
-    display: block;
-    width: 1180px;
+  
     height: 500px;
-}
-
-body{
-    padding-left: 100px;
-    background-image: url("https://previews.123rf.com/images/sonulkaster/sonulkaster1811/sonulkaster181100496/111957092-fast-food-sketch-pattern-background-vector-seamless-design-of-cheeseburger-hamburger-burger-and-hot-.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
- main img{
     display: block;
-    width: 500px;
-    height: 300px;
-    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    outline-color: black;
+    outline-style: groove;
+    outline-width: 3px;
+
+}
+body{
+  
+  margin: 50px;
 }
 
-.column {
+
+.column{
+  position: relative;
+  right: 200px;
+}
+.column img{
     float: left;
-    width: 350px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 400px;
+    top: 100px;
     padding: 5px;
-    padding-left: 10px;
-    margin: 40px;
+    /* padding-left: 200px;*/
+    margin: 40px; 
+    outline:black;
+    outline-width: 5px;
+    outline-style: groove;
   }
+
+  .column p{
+    position: relative;
+    left: 100px;
+    top:380px
+
+  }
+
+  .column button{
+    position: relative;
+    left: 50px;
+    top:400px;
+    border-style: groove;
+    background-color: coral;
+
+  }
+
+
   .row::after {
     content: "";
     clear: both;
     display: table;
+    padding: 50px;
+    margin: 50px;
+  
   }
   main div p  {
     padding-left: 30px;
@@ -66,10 +96,6 @@ body{
   main div button{
     margin-left: 130px;
   }
-main .row div{
-    /* border: gray; */
-    
-    outline: gray;
-    outline-width: 30px;
-}
+
+
 
