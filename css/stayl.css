@@ -3,11 +3,12 @@ header img {
     position: relative;
     left: 80px;
 } 
-header img:nth-child(4) {
+.foodieLogo   {
     position: relative;
     left: 500px;
     width: 110px;
     height: 90px;
+    
     
 }
  
@@ -18,23 +19,43 @@ header img:nth-child(5){
     height: 60px;
 }
  
-header img:nth-child(6){
+.logoForRestaurant {
   
+    width: 1080px;
     height: 500px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 85%;
+    margin-right: auto; 
     outline-color: black;
-    outline-style: groove;
-    outline-width: 3px;
+    outline-style:groove;
+    outline-width: 3px; 
 
 }
+main{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 body{
-  
   margin: 50px;
+  background-image: url(/img/rosemary.png), url(/img/rosemary.png);
+  background-repeat:repeat-y , repeat-y;
+  background-position: right , left;
+ background-color:#FAF3F3;
+ 
 }
 
+header{
+  outline: #A7BBC7;
+  outline-style:dotted;
+  outline-width: 11px;
+  width: 1350px;
+  position: relative;
+  left: 25px;
+  background-color: #DA7F8F;
+  
+  
+}
 
 .column{
   position: relative;
@@ -48,7 +69,6 @@ body{
     left: 400px;
     top: 100px;
     padding: 5px;
-    /* padding-left: 200px;*/
     margin: 40px; 
     outline:black;
     outline-width: 5px;
@@ -58,18 +78,19 @@ body{
   .column p{
     position: relative;
     left: 100px;
-    top:380px
-
+    top:380px;
+    background-color:#A7BBC7;
+    display:table;
+    border-radius: 12px
   }
 
   .column button{
-    position: relative;
-    left: 50px;
-    top:400px;
-    border-style: groove;
-    background-color: coral;
-
-  }
+     position: relative;
+     right: 30px;  
+     background-color:#DA7F8F;
+     border-radius: 50%;
+     font-size: 16px;
+   }
 
 
   .row::after {
