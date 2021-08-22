@@ -1,112 +1,6 @@
 
 
 
-* {
-    box-sizing: border-box;
-  }
-  /* Home Page */
-  .home{
-    /* border: 5px solid red; */
-    width: 1000px;
-    height: 100px;
-    margin-left: 15%;
-    margin-bottom: 15%;
-    top: 0px;
-    background-color: white;
-  }
-  /* .home .head{
-    background-color: white;
-  } */
-   #logoImg img{
-    /* border: 5px solid red; */
-    margin-left: 44%;
-    position: relative;
-  }
-   #logoImg img{
-    /* border: 5px solid red; */
-    width: 90px;  
-    height: 90px;
-    position: absolute;
-  }
-   #allHead #logo nav{
-    /* border: 5px solid red; */
-    width: auto;
-    float: left;
-    position: absolute;
-  }
-   #allHead #logo nav ul{
-    /* border: 5px solid red; */
-    width: auto;
-    float: left;
-  }
-
-  #allHead #logo nav ul li {
-		display: inline-block;
-		margin-left: 15px;
-	  }
-  #allHead #logo nav li img{
-      top: auto;
-      left: auto;
-      width: 25px;
-      height: 25px;
-    }
-
-    .home .head #search-wrapper {
-      /* border: 5px solid red; */
-      width: 20%;
-      height: 50px;
-      margin-right: 10%;
-      float: right;
-      
-    }
-
-     #search-wrapper .search-input{
-      /* border: 5px solid red; */
-      width: 150px;
-      margin-left:5% ;
-      top: 0px;
-    }
-    #search-wrapper .search-pic{
-      /* border: 5px solid red; */
-      margin-right: 20px;
-      margin-left: 80px;
-      width: 20px;
-      bottom: 20px;
-    }
-	  
-      .cartImg img{
-      /* border: 5px solid red; */
-      margin-right: 0px;
-      margin-left: 90px;
-      width: 40px;
-      left: 850px;
-      top: 12%;
-      margin-bottom: 4%;
-      
-    }
-    .mainImg{
-      /* border: 5px solid red; */
-      text-align: center;
-      font-size: 50px;
-    }
-    .home .head .mainImg img{
-      text-align: center;
-      font-size: 50px;
-      margin-right: 155px;
-      z-index: -1;
-    }
-    /* animation */
-    
-@keyframes swing {
-  0%, 100% { transform: rotate(-20deg); }
-  20% {transform:scale(1);}
-  50% { transform: rotate(20deg); }
-  80% {transform:scale(1);}
-}
-
-#sweetlandia {
-  animation: swing 5s infinite ease-in-out;
-}
 /* header a {
 		text-decoration: none;
 		font-size: 25px;
@@ -135,7 +29,6 @@ header img:nth-child(5){
  
 header img:nth-child(6){
     display: block;
-    
     width: 1180px;
     height: 500px;
 }
