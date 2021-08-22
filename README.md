@@ -7,6 +7,12 @@ In Jordan, we do not have many web pages for ordering food online, so we decided
 ## Overall problem scope:
  Create a cart to add all items (meals) to show all details dill like (meals price, sales tax, meals name, total price of all orders, .... etc). To do this, we want to store all order details in local storage on the cart page and show the invoice details on the cart page. And don't forget to create athour pages home page and restaurant pages to make it easier for the user.
 
+## version
+| version | Definition                                                                |   |   |   |
+|---------|---------------------------------------------------------------------------|---|---|---|
+| 1.0.0   | Adding html for all pages, do the main function and in the end adding css |   |   |   |
+|         |                                                                           |   |   |   |
+|         |                                                                           |   |   |   |
  ### Wireframe:
 Home page
 ![Home-page](img/Wierframe-for-home-page.PNG)
