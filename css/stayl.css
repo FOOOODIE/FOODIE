@@ -5,42 +5,63 @@ header img {
 } 
 .foodieLogo   {
     position: relative;
-    left: 500px;
+    left: 590px;
     width: 100px;
     height: 70px;
     
     
 }
  
-header img:nth-child(5){
+.cart{
     position: relative;
-    left: 1000px;
+    left: 1150px;
+    top:10px;
     width: 60px;
     height: 60px;
 }
  
-/* .logoForRestaurant {
-  
-    width: 1080px;
-    height: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    outline-color: black;
-    outline-style:groove;
-    outline-width: 3px; 
 
-} */
-.slider{
+.sliderBurger{
   background: url(/img/burger\ Main\ Logo.jpg) no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 1520px;
-  height: 700px;
+  height: 780px;
+  
 }
- 
+.sliderShawerma{
+  
+    background: url(/img/shawerma\ Main\ Logo.png) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1520px;
+    height: 780px;
+    
+  
+}
+.sliderPizza{
+  background: url(/img/pizza\ Main\ Logo.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1520px;
+    height: 780px;
+    
+}
+.sliderIndian{
+  background: url(/img/butter\ chicken\ Main\ Logo.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1520px;
+  height: 780px;
+}
 
  main {
 
@@ -50,7 +71,6 @@ header img:nth-child(5){
 }
 
 body{
-  /* margin: 50px; */
   
  background-color:#FAF3F3;
  
@@ -58,22 +78,25 @@ body{
 
 header{
   outline:black;
-  outline-style:double;
+  outline-style:groove;
   outline-width: 11px;
-  width: 1480px;
-  /* height: 200px; */
+  width: 1498px;
   position: fixed;
-  margin-left: 20px;
+  margin-left:10px;
   background-color: white;
-  
+  z-index: 999;
   
 }
-
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
 .column{
   position: relative;
   right: 200px;
+  
 }
-.column img{
+.column img {
     float: left;
     width: 250px;
     height: 200px;
@@ -85,46 +108,133 @@ header{
     outline:black;
     outline-width: 5px;
     outline-style: groove;
-  }
+    background-color: white ;
+    
+
+   }
+/*    
+   .fade1{
+    width: 266px;
+    height: 220px;
+    background:rgb(126, 0, 0);
+    position: relative;
+    bottom: 530px;
+    left:234px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+   }
+   .fade1:hover{
+    opacity: 0.5;
+    
+   }
+   .fade2{
+    width: 266px;
+    height: 220px;
+    background:rgb(126, 0, 0);
+    position: relative;
+    bottom: 521px;
+    left: 579px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+   }
+   .fade2:hover{
+    opacity: 0.5;
+    
+   }
+
+   .fade3{
+    width: 266px;
+    height: 220px;
+    background:rgb(126, 0, 0);
+    position: relative;
+    bottom: 528px;
+    left: 919px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+   }
+
+   .fade3:hover{
+    opacity: 0.5;
+    
+   } */
+
 
   .column p{
     position: relative;
-    left: 100px;
-    top:380px;
-    background-color:#A7BBC7;
+    left: 70px;
+    top:400px;
+    /* background-color:#A7BBC7; */
     display:table;
-    border-radius: 12px
+    /* border-radius: 12px */
   }
 
-  .column button{
-     position: relative;
-     right: 30px;  
-     background-color:#DA7F8F;
-     border-radius: 50%;
-     font-size: 16px;
+  .add-to-cart{
+     display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    top: 400px;
+    left:100px;
+    
+   } 
+
+   .add-to-cart span{
+     cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
    }
+
+   .add-to-cart span ::after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+   }
+   .add-to-cart:hover span{
+    padding-right: 25px;
+   }
+
+   .add-to-cart:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+   
+  
 .shop-item-price{
-display: table;
-}
-.shop-item-title{
   display: table;
 }
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    padding: 50px;
-    margin: 50px;
-  
-  }
+
+.shop-item-title{
+  display: table;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 20px;
+  margin-right: 20px;
+  padding-right: 10px;
+  padding-left: 30px;
+
+}
+
+
   main div p  {
     padding-left: 30px;
+    padding-bottom: 10px;
     color: black;
   }
-  main div button{
-    margin-left: 130px;
-  }
-
+ 
 
 
