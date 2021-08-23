@@ -4,17 +4,26 @@ let item = [];
 let Cart = function(name, price){
   this.name = name;
   this.price = price;
-  // this.quntety = quntety;
+  // this.quantity = quantity;
   this.tax = 16;
   item.push(this);
+  saveToLocalStorage();
+  console.log(item);
 };
-// Cart.prototype.addToCart = function(name, price){
-// //   Cart(name, price);
-//   this.saveToLocalStorage(item);
-// };Cart.prototype.saveToLocalStorage = function(lestOfItem){
-//   let StringItem = JSON.stringify(lestOfItem);
-//   localStorage.setItem('cart',StringItem);
-// };
 
-new Cart('hi',20);
-console.log(item);
+function saveToLocalStorage (){
+  let StringItem = JSON.stringify(item);
+  localStorage.setItem('cart',StringItem);
+};
+function readFromLocalStorage() {
+  let stringObj = localStorage.getItem('cart');
+  let normalObj = JSON.parse(stringObj);
+console.log(normalObj);
+  if (normalObj) {
+    item.push(normalObj);
+    console.log(item);
+    // showResults();
+  }
+}
+readFromLocalStorage();
+

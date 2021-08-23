@@ -3,11 +3,12 @@ header img {
     position: relative;
     left: 80px;
 } 
-header img:nth-child(4) {
+.foodieLogo   {
     position: relative;
     left: 500px;
-    width: 110px;
-    height: 90px;
+    width: 100px;
+    height: 70px;
+    
     
 }
  
@@ -18,23 +19,55 @@ header img:nth-child(5){
     height: 60px;
 }
  
-header img:nth-child(6){
+/* .logoForRestaurant {
   
+    width: 1080px;
     height: 500px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 85%;
+    margin-right: auto; 
     outline-color: black;
-    outline-style: groove;
-    outline-width: 3px;
+    outline-style:groove;
+    outline-width: 3px; 
+
+} */
+.slider{
+  background: url(/img/burger\ Main\ Logo.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1520px;
+  height: 700px;
+}
+ 
+
+ main {
+
+  padding-top: 50px;
+  padding-bottom:50px;
 
 }
+
 body{
+  /* margin: 50px; */
   
-  margin: 50px;
+ background-color:#FAF3F3;
+ 
 }
 
+header{
+  outline:black;
+  outline-style:double;
+  outline-width: 11px;
+  width: 1480px;
+  /* height: 200px; */
+  position: fixed;
+  margin-left: 20px;
+  background-color: white;
+  
+  
+}
 
 .column{
   position: relative;
@@ -48,7 +81,6 @@ body{
     left: 400px;
     top: 100px;
     padding: 5px;
-    /* padding-left: 200px;*/
     margin: 40px; 
     outline:black;
     outline-width: 5px;
@@ -58,19 +90,25 @@ body{
   .column p{
     position: relative;
     left: 100px;
-    top:380px
-
+    top:380px;
+    background-color:#A7BBC7;
+    display:table;
+    border-radius: 12px
   }
 
   .column button{
-    position: relative;
-    left: 50px;
-    top:400px;
-    border-style: groove;
-    background-color: coral;
-
-  }
-
+     position: relative;
+     right: 30px;  
+     background-color:#DA7F8F;
+     border-radius: 50%;
+     font-size: 16px;
+   }
+.shop-item-price{
+display: table;
+}
+.shop-item-title{
+  display: table;
+}
 
   .row::after {
     content: "";
