@@ -6,8 +6,8 @@ header img {
 .foodieLogo   {
     position: relative;
     left: 500px;
-    width: 110px;
-    height: 90px;
+    width: 100px;
+    height: 70px;
     
     
 }
@@ -19,7 +19,7 @@ header img:nth-child(5){
     height: 60px;
 }
  
-.logoForRestaurant {
+/* .logoForRestaurant {
   
     width: 1080px;
     height: 500px;
@@ -30,29 +30,41 @@ header img:nth-child(5){
     outline-style:groove;
     outline-width: 3px; 
 
+} */
+.slider{
+  background: url(/img/burger\ Main\ Logo.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1520px;
+  height: 700px;
 }
-main{
+ 
+
+ main {
+
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom:50px;
+
 }
 
 body{
-  margin: 50px;
-  background-image: url(/img/rosemary.png), url(/img/rosemary.png);
-  background-repeat:repeat-y , repeat-y;
-  background-position: right , left;
+  /* margin: 50px; */
+  
  background-color:#FAF3F3;
  
 }
 
 header{
-  outline: #A7BBC7;
-  outline-style:dotted;
+  outline:black;
+  outline-style:double;
   outline-width: 11px;
-  width: 1350px;
-  position: relative;
-  left: 25px;
-  background-color: #DA7F8F;
+  width: 1480px;
+  /* height: 200px; */
+  position: fixed;
+  margin-left: 20px;
+  background-color: white;
   
   
 }
@@ -91,7 +103,12 @@ header{
      border-radius: 50%;
      font-size: 16px;
    }
-
+.shop-item-price{
+display: table;
+}
+.shop-item-title{
+  display: table;
+}
 
   .row::after {
     content: "";
