@@ -34,14 +34,14 @@ function addItemToCart(title, price) {
   new Cart(title, price);
   
 }
-function readFromLocalStorage() {
-  let stringObj = localStorage.getItem('cart');
-  let normalObj = JSON.parse(stringObj);
+// function readFromLocalStorage() {
+//   let stringObj = localStorage.getItem('cart');
+//   let normalObj = JSON.parse(stringObj);
 
-  if (normalObj) {
-    item.push(normalObj);
-    console.log();
-    // showResults();
-  }
-}
-readFromLocalStorage();
+//   if (normalObj) {
+//     item.push(normalObj);
+
+//     // showResults();
+//   }
+// }
+// readFromLocalStorage();
