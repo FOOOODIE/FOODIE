@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 let sliderImages = document.querySelectorAll(".slide"),
   arrowLeft = document.querySelector("#arrow-left"),
   arrowRight = document.querySelector("#arrow-right"),
   current = 0;
+=======
+'use strict';
+let slideIndex = 1;
+showSlides(slideIndex);
+>>>>>>> 44199a33f1068473c652f5051d50cd2c6002e6db
 
 // Clear all images
 function reset() {
