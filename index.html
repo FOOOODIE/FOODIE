@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/stayl.css">
-    <link rel="stylesheet" href="css/homePage.css">
-    
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/homePage.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    </style>
 </head>
 <body>
-    <header>
-        <section class="head">
-            <div id="allHead">
-                <div id="logo">
-                    <a href="index.html" id="logoImg"> <img src='img/logo3.PNG' alt='SweetLandia'  width='200' alt=""></a>
-                    <nav>
-                        <ul>
-                         <li><a href="https://twitter.com"><i class="icon-twitter"></i><img src="img/twitter.png" alt=""></a></li>
-                         <li><a href="https://facebook.com"><i class="icon-facebook"></i><img src="img/facebook.png" alt=""></a></li>
-                         <li><a href="https://instagram.com"><i class="icon-instagram"></i><img src="img/instagram.png" alt=""></a></li>
-                        </ul>
-                    </nav>
-                </div>
-               
-               <div id="search-wrapper">
-                <input class="search-input" placeholder="Search..." type="text" value="" name="search" id="search"/>
-                <img class="search-pic" src="https://img.icons8.com/ios-filled/50/000000/search--v1.png"/>
-            </div>
-            <a href="" class="cartImg"><img src="img/shopping-cart.png" alt="cart"></a>
-            
-            </div>
-        </section>
-    </header>
-    <div class="mainImg">
-        <h1 id="name">FOODIE</h1>
-         <img src='https://image.freepik.com/free-icon/restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle_318-61086.png' alt='SweetLandia' id='sweetlandia' alt="">
-        </div>
-    <main>
-        
-    <div class="slideshow-container">
-        <h1 id="show-Restorant">Slideshow Restorant</h1>
-    <h1>Burgers</h1>
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 4</div>
-          <a href=""><img src="img/McDonalds_logo.svg_.png" style="width:90%"></a>
-          <div class="text">pressure to choose McDonalds</div>
-        </div>
+  <header>
+    <a href="https://twitter.com"><i class="icon-twitter"></i><img src="img/twitter.png" alt="" width="30" height="30"></a>
+    <a href="https://facebook.com"><i class="icon-facebook"></i><img src="img/facebook.png" alt=""  width="30" height="30"></a>
+    <a href="https://instagram.com"><i class="icon-instagram"></i><img src="img/instagram.png" alt=""  width="30" height="30"></a>
+    <a href="index.html"> <img class="foodieLogo" src="img/finaLogo.png" alt=""> </a>
+   <a href="cart.html"> <img class="cart" src="img/foodieCart.png" alt=""></a> 
       
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 4</div>
-          <a href=""><img src="img/BIG-BURGER.png" style="width:100%"></a>
-          <div class="text">pressure to choose BIG-BURGER</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 4</div>
-          <img src="img/Burger king.png" style="width:100%">
-          <div class="text">pressure to choose Burger king</div>
-        </div>
 
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <img src="img/pow.png" style="width:100%">
-            <div class="text">pressure to choose Pow burgers</div>
-          </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </header>
+
+  <main>
+ <div class="container">
+    <div id="slides">
+      <img src="img/burger Main Logo.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+      <img src="img/pizza Main Logo.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/139719/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/139719/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/139719/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+   <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false,
+        play: { auto: true,interval: 6000, },
+    effect: {
+      slide: {speed: 1500},
+      fade: { speed: 300, },
+            }
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
+
+  <div class="wrap">
+    <div id="arrow-left" class="arrow"></div>
+    <div id="slider">
+      <div class="slide slide1">
+        <div class="slide-content">
+          <span>Image One</span>
+        </div>
       </div>
-       <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
+      <div class="slide slide2">
+        <div class="slide-content">
+          <span>Image Two</span>
+        </div>
       </div>
-    </main>
-    <!-- <footer></footer> -->
-    <script src="js/slideshow.js"></script>
+      <div class="slide slide3">
+        <div class="slide-content">
+          <span>Image Three</span>
+        </div>
+      </div>
+    </div>
+    <div id="arrow-right" class="arrow"></div>
+  </div>
+  </main>
+<footer>
+
+</footer>
+<script src="js/slideshow.js"></script>
 </body>
 </html>
