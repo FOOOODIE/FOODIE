@@ -4,22 +4,31 @@ header img {
     left: 80px;
 } 
 .foodieLogo   {
-    position: relative;
-    left: 590px;
-    width: 100px;
-    height: 70px;
+  margin: 7px 0 0 0;
+    width: 70px;
     
     
 }
  
-.cart{
-    position: relative;
-    left: 1150px;
-    top:10px;
-    width: 60px;
-    height: 60px;
+.fa-shopping-cart{
+   
+   font-size: 44px;
+  margin-top: 20px;
+  margin-left: 60px;
+   color: black;
 }
- 
+nav{
+ margin-top: 20px;
+ margin-left: 600px;
+ width: 40%;
+ font-size: 22px;
+}
+ nav li{
+  display:inline-block;
+  margin-left: 10px;
+  width: 180px;
+ }
+
 
 .sliderBurger{
   background: url(/img/burger\ Main\ Logo.jpg) no-repeat center center ; 
@@ -79,13 +88,14 @@ body{
 header{
   outline:black;
   outline-style:groove;
-  outline-width: 11px;
-  width: 1498px;
+  outline-width: 3px;
+  width: 100%;
   position: fixed;
-  margin-left:10px;
+  height: 90px;
   background-color: white;
   z-index: 999;
-  
+  display: flex;
+
 }
 p{
   font-family: 'Open Sans', sans-serif;
@@ -236,5 +246,53 @@ p{
     color: black;
   }
  
+  
+  
+  .container{
+    padding-left:20px;
+    padding-top:20px;
+    background-color: black;
+    bottom:0;
+    left:0;
+    height:300px;
+    color:whitesmoke;
+    font-size: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+#social a i{
+  color: #FAF3F3;
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: 60px;
 
+}
+  .upper{
+    margin-bottom: 30px;
+  }
 
+  .box div a{
+    text-decoration: none;
+    color:whitesmoke;
+  }
+  .box div{
+    margin:10px
+
+  }
+  .box{
+    margin-left: 70%;
+    margin-bottom: 70px;
+    margin-top: -50px;
+  }
+
+  .bottom{
+    float:right
+  }
+  
+  .copyRight{
+    color:rgba(199, 66, 18, 0.774)
+  }
+  
+
+  
+  

@@ -32,12 +32,7 @@ header img {
   height: 60px;
 }
 
-/* -webkit-font-smoothing: antialiased;
-font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #232525;
-padding-top:70px;
-} */
-
+ 
 #slides {
 display: none
 }
@@ -64,7 +59,7 @@ list-style: none;
 
 .slidesjs-pagination li {
 float: left;
-margin: 0 1px;
+ margin: 0 1px; 
 }
 
 .slidesjs-pagination li a {
@@ -99,75 +94,69 @@ color: #9e2020
 
 .navbar {
 overflow: hidden
-}
+} 
 
-/*end slidshow*/
+.ALL p{
+  font-size: 30px;
+  padding: 20px;
+}
+.ALL img {
 
-body,
-#slider,
-.wrap,
-.slide-content {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  height: 100vh;
-  overflow-x: hidden;
-}
+ 
+  width: 200 px;
+  
+   
+  height: 200px;
+  
+   
+  border-radius: 100px;
+  
+   
+  padding: 10px;
+  
+   
+  }
+  
+  
+  #image-container {
+  
+   
+  padding-left: 200px;
+  
+   
+  border: 2px solid rgb(126, 122, 122);
+  
+   
+  width: 800px;
+  
+   
+  margin: 0 auto;
+  
+   
+  height: 175px;
+  
+   
+  }
+  
+    
+    .ALL img{
+  
+   
+  width: 200px;
+  
+   
+  margin: 7px;
+  
+   
+  border-radius: 10px;
+  
+   
+  padding: 10px;
+  
+   
+  border: 10px solid rgb(248, 248, 248);
+  
+   
+  }
+  
 
-.wrap {
-  position: relative;
-}
-
-.slide {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.slide1 {
-  background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
-}
-.slide2 {
-  background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
-}
-.slide3 {
-  background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
-}
-
-.slide-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.slide-content span {
-  font-size: 5rem;
-  color: #fff;
-}
-
-.arrow {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  margin-top: -35px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-
-#arrow-left {
-  border-width: 30px 40px 30px 0;
-  border-color: transparent #fff transparent transparent;
-  left: 0;
-  margin-left: 30px;
-}
-
-#arrow-right {
-  border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #fff;
-  right: 0;
-  margin-right: 30px;
-}

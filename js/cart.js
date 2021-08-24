@@ -21,7 +21,7 @@ function renderCartList() {
   let total = 0
 
   for (let i = 0; i < item.length; i++) {
-    total+=item[i].price
+    total+=Number(item[i].price)
 
     let trEl = document.createElement('tr');
     billForm.appendChild(trEl);
@@ -43,7 +43,7 @@ function renderCartList() {
 
   let tdEl11 = document.createElement('td');
   trEl.appendChild(tdEl11);
-  tdEl11.textContent = total;
+  tdEl11.innerHTML += total +" JD";
 
 }
 
@@ -61,5 +61,5 @@ function createTableHeader() {
 }
 
 // console.log(item);
-readFromLocalStorage()
+readFromLocalStorage();
 console.log(item);
