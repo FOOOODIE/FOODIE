@@ -5,11 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
+    <script src="https://kit.fontawesome.com/b3df479e37.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/AboutUs.css">
+   
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+
+
+        li {
+            float: left;
+        }
+
+
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+
+
+        .active {
+            background-color: #dfc580;
+        }
+    </style>
+    
 </head>
 <body>
+    <header>
+        <a href="index.html"> <img class="foodieLogo" src="img/foLogo2.png" alt=""></a>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"> <i class="fas fa-shopping-cart"></i></a>
 
+
+</header>
+
+   
+    <main>
+        
     <div class="team-section">
         <h1>Our Team</h1>
         
@@ -118,20 +174,10 @@
 
 </div>
     </div>
-    <header>
-
-
-
-    </header>
-    <main>
-
 
     </main>
-    <footer>
 
-
-
-    </footer>
+    
     
 </body>
 </html>
