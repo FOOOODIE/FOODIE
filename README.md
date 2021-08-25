@@ -21,3 +21,4 @@ Resturant page
 
 ## Activity Diagram
 ![Activity-Diagram](img/Activity-Diagram.png)
+
