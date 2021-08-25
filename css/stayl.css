@@ -1,182 +1,249 @@
 
-
-
-* {
-    box-sizing: border-box;
-  }
-  /* Home Page */
-  .home{
-    /* border: 5px solid red; */
-    width: 1000px;
-    height: 100px;
-    margin-left: 15%;
-    margin-bottom: 15%;
-    top: 0px;
-    background-color: white;
-  }
-  /* .home .head{
-    background-color: white;
-  } */
-   #logoImg img{
-    /* border: 5px solid red; */
-    margin-left: 44%;
-    position: relative;
-  }
-   #logoImg img{
-    /* border: 5px solid red; */
-    width: 90px;  
-    height: 90px;
-    position: absolute;
-  }
-   #allHead #logo nav{
-    /* border: 5px solid red; */
-    width: auto;
-    float: left;
-    position: absolute;
-  }
-   #allHead #logo nav ul{
-    /* border: 5px solid red; */
-    width: auto;
-    float: left;
-  }
-
-  #allHead #logo nav ul li {
-		display: inline-block;
-		margin-left: 15px;
-	  }
-  #allHead #logo nav li img{
-      top: auto;
-      left: auto;
-      width: 25px;
-      height: 25px;
-    }
-
-    .home .head #search-wrapper {
-      /* border: 5px solid red; */
-      width: 20%;
-      height: 50px;
-      margin-right: 10%;
-      float: right;
-      
-    }
-
-     #search-wrapper .search-input{
-      /* border: 5px solid red; */
-      width: 150px;
-      margin-left:5% ;
-      top: 0px;
-    }
-    #search-wrapper .search-pic{
-      /* border: 5px solid red; */
-      margin-right: 20px;
-      margin-left: 80px;
-      width: 20px;
-      bottom: 20px;
-    }
-	  
-      .cartImg img{
-      /* border: 5px solid red; */
-      margin-right: 0px;
-      margin-left: 90px;
-      width: 40px;
-      left: 850px;
-      top: 12%;
-      margin-bottom: 4%;
-      
-    }
-    .mainImg{
-      /* border: 5px solid red; */
-      text-align: center;
-      font-size: 50px;
-    }
-    .home .head .mainImg img{
-      text-align: center;
-      font-size: 50px;
-      margin-right: 155px;
-      z-index: -1;
-    }
-    /* animation */
-    
-@keyframes swing {
-  0%, 100% { transform: rotate(-20deg); }
-  20% {transform:scale(1);}
-  50% { transform: rotate(20deg); }
-  80% {transform:scale(1);}
-}
-
-#sweetlandia {
-  animation: swing 5s infinite ease-in-out;
-}
-/* header a {
-		text-decoration: none;
-		font-size: 25px;
-		color: rgb(255, 255, 255);
-	  } */
-  /* End of CSS for Home Page */
 header img {
     padding: 50;
     position: relative;
     left: 80px;
 } 
-header img:nth-child(4) {
-    position: relative;
-    left: 500px;
-    width: 110px;
-    height: 90px;
+.foodieLogo   {
+  margin: 7px 0 0 0;
+    width: 70px;
+    
     
 }
  
-header img:nth-child(5){
-    position: relative;
-    left: 1000px;
-    width: 60px;
-    height: 60px;
+.fa-shopping-cart{
+   
+   font-size: 44px;
+  margin-top: 20px;
+  margin-left: 60px;
+   color: black;
 }
- 
-header img:nth-child(6){
-    display: block;
+nav{
+ margin-top: 20px;
+ margin-left: 600px;
+ width: 40%;
+ font-size: 22px;
+}
+ nav li{
+  display:inline-block;
+  margin-left: 10px;
+  width: 180px;
+ }
+
+
+.sliderBurger{
+  background: url(./../img/burger\ Main\ Logo.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1520px;
+  height: 780px;
+  
+}
+.sliderShawerma{
+  
+    background: url(./../img/shawerma\ Main\ Logo.png) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1520px;
+    height: 780px;
     
-    width: 1180px;
-    height: 500px;
+  
+}
+.sliderPizza{
+  background: url(./../img/pizza\ Main\ Logo.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1520px;
+    height: 780px;
+    
+}
+.sliderIndian{
+  background: url(./../img/butter\ chicken\ Main\ Logo.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1520px;
+  height: 780px;
+}
+
+ main {
+
+  padding-top: 50px;
+  padding-bottom:50px;
+
 }
 
 body{
-    padding-left: 100px;
-    background-image: url("https://previews.123rf.com/images/sonulkaster/sonulkaster1811/sonulkaster181100496/111957092-fast-food-sketch-pattern-background-vector-seamless-design-of-cheeseburger-hamburger-burger-and-hot-.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  
+ background-color:#FAF3F3;
+ 
 }
 
- main img{
-    display: block;
-    width: 500px;
-    height: 300px;
-    padding-left: 30px;
+header{
+  outline:black;
+  outline-style:groove;
+  outline-width: 3px;
+  width: 100%;
+  position: fixed;
+  height: 90px;
+  background-color: white;
+  z-index: 999;
+  display: flex;
+
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
-.column {
-    float: left;
-    width: 350px;
-    padding: 5px;
-    padding-left: 10px;
-    margin: 40px;
-  }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  main div p  {
-    padding-left: 30px;
-    color: black;
-  }
-  main div button{
-    margin-left: 130px;
-  }
-main .row div{
-    /* border: gray; */
+.column img {
+   
+    width: 250px;
+    height: 200px;
     
-    outline: gray;
-    outline-width: 30px;
+    outline:black;
+    outline-width: 5px;
+    outline-style: groove;
+    background-color: white ;
+    margin-bottom: 10%;
+
+   }
+
+   .column .description{
+    width:253px;
+    height:100px;
+    padding:2%
+   }
+  
+  .add-to-cart{
+  
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top:2%
+   
+    
+   } 
+
+   .add-to-cart span{
+     cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+   }
+
+   .add-to-cart span ::after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+   }
+   .add-to-cart:hover span{
+    padding-right: 25px;
+   }
+
+   .add-to-cart:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+   
+  
+.shop-item-price{
+  display: table;
+  float:left;
+  margin-top:3%;
+  border:solid 1px #f4511e;
+  width:50px;
+  padding-left:5%;
+  padding-top:3%;
+  height:20px;
 }
 
+
+p.shop-item-title{
+  font-size: 20px;
+  font-weight:bolder;
+  
+}
+
+
+  main div p  {
+    
+    padding-bottom: 10px;
+    
+    color: black;
+    
+  }
+ .row{
+   display:flex;
+   margin-top:10%;
+   margin-left:100px;
+ }
+
+ .row .column{
+   margin-left:10%;
+ }
+
+  
+  
+  .container{
+    padding-left:20px;
+    padding-top:20px;
+    background-color: black;
+    bottom:0;
+    left:0;
+    height:300px;
+    color:whitesmoke;
+    font-size: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+#social a i{
+  color: #FAF3F3;
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: 60px;
+
+}
+  .upper{
+    margin-bottom: 30px;
+  }
+
+  .box div a{
+    text-decoration: none;
+    color:whitesmoke;
+  }
+  .box div{
+    margin:10px
+
+  }
+  .box{
+    margin-left: 70%;
+    margin-bottom: 70px;
+    margin-top: -50px;
+  }
+
+  
+  .copyRight{
+    color:rgba(199, 66, 18, 0.774)
+  }
+  
+
+  
+  

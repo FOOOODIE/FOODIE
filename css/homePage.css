@@ -1,0 +1,187 @@
+
+header img {
+  padding: 50;
+  position: relative;
+  left: 80px;
+} 
+.foodieLogo   {
+margin: 7px 0 0 0;
+  width: 70px;
+  
+}
+
+header{
+  outline:black;
+  /* outline-style:groove; */
+  outline-width: 3px;
+  width: 100%;
+  position: fixed;
+  height: 90px;
+  background-color: white;
+  z-index: 999;
+  display: flex;
+
+}
+.fa-shopping-cart{
+ 
+ font-size: 30px;
+margin-top: 30px;
+margin-left: 35px;
+ color: black;
+}
+nav{
+margin-top: 20px;
+margin-left: 900px;
+width: 30%;
+font-size: 22px;
+}
+nav li{
+display:inline-block;
+margin-left: 10px;
+padding-left: 25px;
+width: 80px;
+}
+
+ 
+#slides {
+display: none
+}
+
+#slides .slidesjs-navigation {
+margin-top:3px;
+}
+
+#slides .slidesjs-previous {
+margin-right: 5px;
+float: left;
+}
+
+#slides .slidesjs-next {
+margin-right: 5px;
+float: left;
+}
+
+.slidesjs-pagination {
+margin: 6px 0 0;
+float: right;
+list-style: none;
+}
+
+.slidesjs-pagination li {
+float: left;
+ margin: 0 1px; 
+}
+
+.slidesjs-pagination li a {
+display: block;
+width: 13px;
+height: 0;
+padding-top: 13px;
+background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/139719/pagination.png");
+background-position: 0 0;
+float: left;
+overflow: hidden;
+visibility: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+color: #9e2020
+}
+
+.navbar {
+overflow: hidden
+} 
+
+.ALL p{
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ALL img {
+
+/* align-items: center; */
+  width: 200 px;
+  margin-left: 107px;
+ 
+  height: 200px;
+  
+   
+  border-radius: 100px;
+  
+   
+  padding: 10px;
+  
+   
+ box-shadow: 5px 10px #c2c2c2;
+ width: 200px;
+ 
+  
+ border-radius: 10px;
+ 
+ border: 10px solid rgb(248, 248, 248);
+ 
+   
+  }
+  
+  
+  #image-container {
+   
+  
+ 
+padding: 100px;
+  
+  box-shadow: 5px 10px #888888;
+   
+  width: 800px;
+  
+   
+  /* margin: 0 auto; */
+  
+   
+  height: 175px;
+  
+   
+  }
+  
+    
+
+
+  .separator{
+    display:flex;
+    align-items: center;
+    margin:  50px 100px;
+  }
+  
+  .separator .line{
+    height: 2px;
+    flex: 1;
+    background-color: rgb(109, 101, 101);
+   
+  }
+  
+  .separator h2{
+    padding: 0 2rem;
+    font-family: 'Permanent Marker', cursive;
+    /* font-weight: bold; */
+    font-size: 30px;
+    padding: 20px;
+  }
