@@ -26,7 +26,7 @@ function addToCartClicked(event) {
   let shopItem = button.parentElement;
   let title = shopItem.getElementsByClassName('shop-item-title')[0].innerText;
   let price = shopItem.getElementsByClassName('shop-item-price')[0].innerText;
-  addItemToCart(title, price);
+  addItemToCart(title, price.split(' ')[0]);
 }
 let quantity
 function addItemToCart(title, price) {
