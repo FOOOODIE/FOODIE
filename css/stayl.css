@@ -1,3 +1,4 @@
+
 header img {
     padding: 50;
     position: relative;
@@ -101,86 +102,28 @@ p{
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
-.column{
-  position: relative;
-  right: 200px;
-  
-}
+
 .column img {
-    float: left;
+   
     width: 250px;
     height: 200px;
-    position: relative;
-    left: 400px;
-    top: 100px;
-    padding: 5px;
-    margin: 40px; 
+    
     outline:black;
     outline-width: 5px;
     outline-style: groove;
     background-color: white ;
-    
-
-   }
-/*    
-   .fade1{
-    width: 266px;
-    height: 220px;
-    background:rgb(126, 0, 0);
-    position: relative;
-    bottom: 530px;
-    left:234px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-   }
-   .fade1:hover{
-    opacity: 0.5;
-    
-   }
-   .fade2{
-    width: 266px;
-    height: 220px;
-    background:rgb(126, 0, 0);
-    position: relative;
-    bottom: 521px;
-    left: 579px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-   }
-   .fade2:hover{
-    opacity: 0.5;
-    
-   }
-
-   .fade3{
-    width: 266px;
-    height: 220px;
-    background:rgb(126, 0, 0);
-    position: relative;
-    bottom: 528px;
-    left: 919px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
+    margin-bottom: 10%;
 
    }
 
-   .fade3:hover{
-    opacity: 0.5;
-    
-   } */
-
-
-  .column p{
-    position: relative;
-    left: 70px;
-    top:400px;
-    /* background-color:#A7BBC7; */
-    display:table;
-    /* border-radius: 12px */
-  }
-
+   .column .description{
+    width:253px;
+    height:80px;
+    padding:2%
+   }
+  
   .add-to-cart{
-     display: inline-block;
+  
     border-radius: 4px;
     background-color: #f4511e;
     border: none;
@@ -192,16 +135,14 @@ p{
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    position: relative;
-    top: 400px;
-    left:100px;
+    margin-top:2%
+   
     
    } 
 
    .add-to-cart span{
      cursor: pointer;
     display: inline-block;
-    position: relative;
     transition: 0.5s;
    }
 
@@ -225,27 +166,40 @@ p{
   
 .shop-item-price{
   display: table;
+  float:left;
+  margin-top:3%;
+  border:solid 1px #f4511e;
+  width:50px;
+  padding-left:5%;
+  padding-top:3%;
+  height:20px;
 }
 
 
-.shop-item-title{
-  display: table;
-  margin-bottom: 20px;
-  margin-top: 5px;
+p.shop-item-title{
   font-size: 20px;
-  margin-right: 20px;
-  padding-right: 10px;
-  padding-left: 30px;
-
+  font-weight:bolder;
+  
 }
 
 
   main div p  {
-    padding-left: 30px;
+    
     padding-bottom: 10px;
+    
     color: black;
+    
   }
- 
+ .row{
+   display:flex;
+   margin-top:10%;
+   margin-left:100px;
+ }
+
+ .row .column{
+   margin-left:10%;
+ }
+
   
   
   .container{
@@ -285,9 +239,6 @@ p{
     margin-top: -50px;
   }
 
-  .bottom{
-    float:right
-  }
   
   .copyRight{
     color:rgba(199, 66, 18, 0.774)

@@ -1,14 +1,3 @@
-header{
-  outline:black;
-  outline-style:groove;
-  outline-width: 11px;
-  width: 1498px;
-  position: fixed;
-  margin-left:10px;
-  background-color: white;
-  z-index: 999;
-  
-}
 
 header img {
   padding: 50;
@@ -16,20 +5,42 @@ header img {
   left: 80px;
 } 
 .foodieLogo   {
-  position: relative;
-  left: 590px;
-  width: 100px;
-  height: 70px;
+margin: 7px 0 0 0;
+  width: 70px;
   
   
 }
 
-.cart{
-  position: relative;
-  left: 1150px;
-  top:10px;
-  width: 60px;
-  height: 60px;
+header{
+  outline:black;
+  /* outline-style:groove; */
+  outline-width: 3px;
+  width: 100%;
+  position: fixed;
+  height: 90px;
+  background-color: white;
+  z-index: 999;
+  display: flex;
+
+}
+.fa-shopping-cart{
+ 
+ font-size: 30px;
+margin-top: 30px;
+margin-left: 35px;
+ color: black;
+}
+nav{
+margin-top: 20px;
+margin-left: 900px;
+width: 30%;
+font-size: 22px;
+}
+nav li{
+display:inline-block;
+margin-left: 10px;
+padding-left: 25px;
+width: 80px;
 }
 
  
@@ -71,6 +82,7 @@ background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/139719/pagin
 background-position: 0 0;
 float: left;
 overflow: hidden;
+visibility: hidden;
 }
 
 .slidesjs-pagination li a.active,
@@ -97,15 +109,20 @@ overflow: hidden
 } 
 
 .ALL p{
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
   font-size: 30px;
   padding: 20px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .ALL img {
 
- 
+/* align-items: center; */
   width: 200 px;
-  
-   
+  margin-left: 107px;
+ 
   height: 200px;
   
    
@@ -115,22 +132,30 @@ overflow: hidden
   padding: 10px;
   
    
+ box-shadow: 5px 10px #c2c2c2;
+ width: 200px;
+ 
+  
+ border-radius: 10px;
+ 
+ border: 10px solid rgb(248, 248, 248);
+ 
+   
   }
   
   
   #image-container {
-  
    
-  padding-left: 200px;
   
-   
-  border: 2px solid rgb(126, 122, 122);
+ 
+padding: 100px;
   
+  box-shadow: 5px 10px #888888;
    
   width: 800px;
   
    
-  margin: 0 auto;
+  /* margin: 0 auto; */
   
    
   height: 175px;
@@ -139,24 +164,25 @@ overflow: hidden
   }
   
     
-    .ALL img{
+
+
+  .separator{
+    display:flex;
+    align-items: center;
+    margin:  50px 100px;
+  }
   
-   
-  width: 200px;
-  
-   
-  margin: 7px;
-  
-   
-  border-radius: 10px;
-  
-   
-  padding: 10px;
-  
-   
-  border: 10px solid rgb(248, 248, 248);
-  
+  .separator .line{
+    height: 2px;
+    flex: 1;
+    background-color: rgb(109, 101, 101);
    
   }
   
-
+  .separator h2{
+    padding: 0 2rem;
+    font-family: 'Permanent Marker', cursive;
+    /* font-weight: bold; */
+    font-size: 30px;
+    padding: 20px;
+  }
