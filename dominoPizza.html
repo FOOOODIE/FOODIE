@@ -5,23 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domino's Pizza</title>
+    <script src="https://kit.fontawesome.com/b3df479e37.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/stayl.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-      </style>
+  </style>
+  <style>
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+      }
+
+
+
+      li {
+          float: left;
+      }
+
+
+
+      li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+
+
+      li a:hover:not(.active) {
+          background-color: #111;
+      }
+
+
+
+      .active {
+          background-color: #dfc580;
+      }
+  </style>
 </head>
 
 <body>
 
     <header>
+      <a href="index.html"> <img class="foodieLogo" src="img/foLogo2.png" alt=""></a>
+      <nav>
+          <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="AboutUs.html">About</a></li>
+          </ul>
+      </nav>
+      <a href="cart.html"> <i class="fas fa-shopping-cart"></i></a>
 
-      <a href="https://twitter.com"><i class="icon-twitter"></i><img src="img/twitter.png" alt="" width="30" height="30"></a>
-      <a href="https://facebook.com"><i class="icon-facebook"></i><img src="img/facebook.png" alt=""  width="30" height="30"></a>
-      <a href="https://instagram.com"><i class="icon-instagram"></i><img src="img/instagram.png" alt=""  width="30" height="30"></a>
-      <a href="index.html"> <img class="foodieLogo" src="img/finaLogo.png" alt=""> </a>
-     <a href="cart.html"> <img class="cart" src="img/foodieCart.png" alt=""></a> 
-      
 
     </header>
 
@@ -69,10 +110,40 @@
           </div>
 
     </main>
-
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
 
-    </footer>
+      <div class="container">
+        <section>
+            <div class="upper">
+                <div class="topic">About us</div>
+                <p> Foodies is a web page where you can order food online,
+                    .</p>
 
+            </div>
+            <div id="social"><a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
+            </div>
+        </section>
+        <section>
+            <div class="box">
+                <div><a href="#">Web Design, Development</a></div>
+                <div><a href="#">Web UX Design, Reasearch</a></div>
+                <div><a href="#">Web User Interface Design</a></div>
+                <div><a href="#">Theme Development, Design</a></div>
+                <div><a href="#">Mobile Application Design</a></div>
+
+
+            </div>
+
+            <div class="bottom">
+                <p>Copyright © 2021 <a class="copyRight" href="#">The Gang Of Five</a> All rights reserved</p>
+            </div>
+        </section>
+
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="./js/item.js"></script>
 </body>
 </html>
